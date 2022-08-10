@@ -11,8 +11,9 @@
 <body>
     <div class="hero">
         <div class="music">
-            <p>Artist: NEFFEX</p>
-            <h1>Good Day (Wake Up)</h1>
+            <p>Artist: Mr. Scruff</p>
+            <h1>Kalimba</h1>
+            <p class="album">Album: Ninja Tuna with Bonus Bait</p>
             <div class="track">
                 <img src="./media/play.png" alt="Play Icon" id="playBtn">
                 <div id="waveform"></div>
@@ -33,8 +34,8 @@
         height: 90,
         barRadius: 4
     });
-
-    wavesurfer.load('media/Good-Day-Wake-Up-NEFFEX.mp3');    
+   
+    wavesurfer.load('media/Kalimba.mp3');  
 
     playBtn.onclick = function() {
         wavesurfer.playPause();
